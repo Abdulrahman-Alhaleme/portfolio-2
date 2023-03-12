@@ -190,7 +190,46 @@ header .navbar a:hover{
   padding:1rem 0;
 }
 
+.education{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.education ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 
+}
+.education ul li{
+    font-size: 2em;
+    list-style: circle;
+}
+.education ul h1{
+    font-size: 4rem;
+}
+.container-li{
+    height: 300px;
+    
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+   
+}
+.box0{
+    margin-left: 150px;
+    border-right: 2px solid black;
+    width: 300px;
+    
+
+}
+.box1{
+    border-right: 2px solid black;
+}
+.ul1{
+    /* border-right: 2px solid black; */
+}
 
 
 .speciality .box-container{

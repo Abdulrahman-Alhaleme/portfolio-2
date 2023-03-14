@@ -183,14 +183,14 @@ header .navbar a:hover{
   animation:float 3s linear infinite;
 }
 
-/* @keyframes float{
+@keyframes float{
   0%, 100%{
     transform: translateY(0rem);
   }
   50%{
     transform: translateY(3rem);
   }
-} */
+}
 
 .home .content h3{
   font-size: 5rem;
@@ -209,6 +209,7 @@ header .navbar a:hover{
     
     
 }
+
 .education ul{
     display: flex;
     flex-direction: column;
@@ -240,6 +241,12 @@ header .navbar a:hover{
 }
 .box1{
     border-right: 2px solid black;
+}
+.speciality .border{
+  width: 160px;
+  height: 2px;
+  background: var(--red);
+  margin: 40px auto;
 }
 
 .speciality .box-container{
@@ -484,6 +491,7 @@ header .navbar a:hover{
 }
 .section-title{
   text-align: center;
+  margin-top: 30px;
   color: #000000;
   text-transform: uppercase;
   font-size: 30px;
@@ -531,7 +539,8 @@ header .navbar a:hover{
 .service-title{
   font-size: 18px;
   text-transform: uppercase;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 60px;
   color: var(--red);
   font-weight: bold;
 }
